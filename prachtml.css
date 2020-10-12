@@ -1,0 +1,134 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  
+}
+.container{
+  width: 1200px;
+  margin: auto;
+  /* background-color: rgb(225, 233, 232); */
+  
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+/* Header section start */
+.header-logo{
+  width:200pxpx;
+  
+}
+.header-nav {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.header-nav a{
+  text-decoration: none;
+  color: black;
+  padding: 12px 20px;
+  margin: 0 10px;
+  font-size: 18px;
+  font-weight: 500;
+  /* border-radius: 20px; */
+  
+}
+.header-nav a:hover{
+
+  border-radius: 8px;
+  background-color: #898f4b;
+  color: white;
+  transition: 0.5s;
+}
+
+/* End of Header */
+/* aboutbus2 */
+.about-us2{
+  background-color:rgba(255, 255, 255, 0.877);
+}
+.au2-box{
+  flex: 0 0 50%;
+  margin:100px 0;
+}
+.au2-box .au2-h{
+  width: 65%;
+  font-size:25px ;
+}
+/* overlay Part */
+.image{
+  position: relative;
+  height: 700px;
+}
+.image img{
+  width: 100%;
+  height: 700px;
+}
+.overlay{
+  position: absolute;
+  background-color: black;
+  opacity: 0.2;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.img-txt{
+  position:absolute;
+  z-index: 2;
+  top: 30%;
+  left: 10%;
+}
+.img-txt h1{
+  font-size: 60px;
+}
+.img-txt a{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  padding: 15px 30px;
+  border-radius: 25px;
+  background-color:  #959e2e;
+}
+.img-txt a:hover{
+  background-color: #626823ea;
+  transition: 0.4s;
+}
+/* about-us */
+.au-box1{
+  flex: 0 0 70%;
+  margin: 60px auto;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.199);
+}
+ .au-box1 .box-img{
+  flex: 0 0 50%;
+   
+}
+.au-box1 .box-txt{
+  flex:0 0 45%;
+   padding: 2.5%;
+}
+.au-box1 .box-txt:hover{
+  box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.027);
+}
+.au-box1 .box-txt h3{
+  margin-top: 20px;
+  font-size: 28px;
+}
+.au-box1 .box-txt .au-a{
+  font-size: 25px;
+  color: black;
+  margin-top: 60px;
+}
+.au-box1 .box-txt .au-a a{
+  color: black;
+}
+.au-box1 .box-txt .au-a a:hover{
+  color: #898f4b;
+}
+.au-box1 .box-img img{
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
